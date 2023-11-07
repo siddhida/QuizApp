@@ -25,11 +25,12 @@ Admin features for quiz moderation
 3. Installation
 To set up and run the Quiz App, follow the instructions in the Installation Guide.
 
+
 4. Usage
 For a detailed guide on how to use the Quiz App, please refer to the User Guide.
 
 5. Flowchart Diagram
-The flowchart diagram outlines the high-level process and interactions within the Quiz App. It provides a visual representation of the application's core functionalities. You can access the flowchart diagram [here] (https://lucid.app/lucidchart/3995e1e7-5d41-4e1f-8a3a-6b8992e90663/edit?viewport_loc=-5421%2C-1206%2C4490%2C2118%2C0_0&invitationId=inv_cebee7da-b648-4dbb-bcb3-72b2b683985c).
+The flowchart diagram outlines the high-level process and interactions within the Quiz App. It provides a visual representation of the application's core functionalities. You can access the flowchart diagram [here](https://lucid.app/lucidchart/3995e1e7-5d41-4e1f-8a3a-6b8992e90663/edit?viewport_loc=-5421%2C-1206%2C4490%2C2118%2C0_0&invitationId=inv_cebee7da-b648-4dbb-bcb3-72b2b683985c).
 
 Flowchart Diagram
 
@@ -39,7 +40,7 @@ The ER diagram illustrates the database structure and the relationships between 
 ER Diagram
 
 7. Context Diagram
-The context diagram provides an overview of the Quiz App's interactions with external systems or entities. It helps visualize the app's boundaries and connections with the outside world. You can access the context diagram [here] (https://lucid.app/lucidspark/e9b08944-d45d-4919-984a-4b6ab79e65ec/edit?viewport_loc=-669%2C-647%2C5760%2C2769%2C0_0&invitationId=inv_75ca0b74-a9ac-4626-b098-31612a9482ab).
+The context diagram provides an overview of the Quiz App's interactions with external systems or entities. It helps visualize the app's boundaries and connections with the outside world. You can access the context diagram [here](https://lucid.app/lucidspark/e9b08944-d45d-4919-984a-4b6ab79e65ec/edit?viewport_loc=-669%2C-647%2C5760%2C2769%2C0_0&invitationId=inv_75ca0b74-a9ac-4626-b098-31612a9482ab).
 
 Context Diagram
 
