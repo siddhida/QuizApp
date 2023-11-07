@@ -44,6 +44,10 @@ The context diagram provides an overview of the Quiz App's interactions with ext
 
 Context Diagram
 
+8. Cloud Server: AWS
+
+9. Resource required: 
+
 8. Contributing
 If you'd like to contribute to the development of the Quiz App, please review the Contributing Guidelines.
 

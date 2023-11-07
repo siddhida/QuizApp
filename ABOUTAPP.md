@@ -69,8 +69,8 @@ To design the schema and context for the quiz application, we'll define the data
    - Collection: `users`
    - Fields:
      - `_id` (ObjectId, unique identifier)
-     - `username` (string, unique)
-     - `password` (string, hashed and salted)
+     - `name` (string, unique)
+     - `email` (string, hashed and salted)
      - `created_at` (timestamp, registration date)
      - `score` (integer)
 
@@ -78,10 +78,12 @@ To design the schema and context for the quiz application, we'll define the data
    - Collection: `questions`
    - Fields:
      - `_id` (ObjectId, unique identifier)
-     - `text` (string, question text)
-     - `options` (array of strings, answer options)
+     - `ques_description` (string, question text)
+     - `ques_topic_name` (string, question text)
+     - `ques_active_status` (boolean, answer options)
      - `correct_answer` (string, index of the correct answer option)
      - `created_at` (timestamp, creation date)
+     - `updated_at` (timestamp, creation date)
 
 3. **User Responses:**
    - Collection: `responses`
