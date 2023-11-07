@@ -91,7 +91,7 @@ To design the schema and context for the quiz application, we'll define the data
      - `_id` (ObjectId, unique identifier)
      - `user_id` (ObjectId, references a user)
      - `question_id` (ObjectId, references a question)
-     - `selected_option` (string, index of the selected answer option)
+     - `selected_ans` (string, index of the selected answer option)
      - `is_correct` (boolean, indicates whether the answer is correct)
      - `answered_at` (timestamp, time of response)
 
