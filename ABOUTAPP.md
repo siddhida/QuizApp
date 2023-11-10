@@ -44,7 +44,7 @@
 
 **4. Technologies:**
    - **Web Server:** Node.js with Express.js for the server.
-   - **Database:** MongoDB for storing user profiles, questions, and responses.
+   - **Database:** RDBMS for storing user profiles, questions, and responses.
    - **Frontend:** React, HTML, CSS, and JavaScript for the user interfaces.
    - **Authentication:** JWT (JSON Web Tokens) for user authentication.
 
@@ -61,7 +61,7 @@ This revised system design accounts for a non-multiplayer quiz where each user o
 
 Schema Design
 
-To design the schema and context for the quiz application, we'll define the database schema and provide an overview of the context and interactions between various components. In this case, we'll assume a simple schema using MongoDB as the database.
+To design the schema and context for the quiz application, we'll define the database schema and provide an overview of the context and interactions between various components. In this case, we'll assume a simple schema using RDBMS as the database.
 
 **Database Schema:**
 
@@ -144,7 +144,7 @@ To design the schema and context for the quiz application, we'll define the data
                     | Database Operations
                     |
            +--------|---------+
-           |    MongoDB (Database)   |
+           |    RDBMS (Database)   |
            | +-----------------------+ |
            | |    Users Collection   | |
            | |   Questions Collection| |
@@ -153,7 +153,7 @@ To design the schema and context for the quiz application, we'll define the data
            +--------------------------+
 ```
 
-In this context design, the web server serves as the central component, handling user authentication, quiz question serving, scoring, and leaderboard management. The MongoDB database stores user profiles, questions, and responses, supporting the data operations of the system.
+In this context design, the web server serves as the central component, handling user authentication, quiz question serving, scoring, and leaderboard management. The RDBMS database stores user profiles, questions, and responses, supporting the data operations of the system.
 
 This context design provides a structured overview of how different components interact to facilitate the quiz application's functionality. Implementation of server endpoints, database queries, and user interfaces will be required to fully realize the system.
 
